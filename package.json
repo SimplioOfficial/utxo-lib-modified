@@ -1,5 +1,5 @@
 {
-  "name": "@simpliofficial/utxo-lib-modified",
+  "name": "@simpliopfficial/utxo-lib-modified",
   "version": "1.9.6",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./dist/src/index.js",
