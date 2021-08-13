@@ -2,7 +2,7 @@
   "name": "@simplioofficial/utxo-lib-modified",
   "version": "1.9.6",
   "description": "Client-side Bitcoin JavaScript library",
-  "main": "./src/index.js",
+  "main": "./dist/src/index.js",
   "engines": {
     "node": ">=10.22.0 <16",
     "npm": ">=3.10.10"
@@ -18,7 +18,7 @@
     "javascript"
   ],
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
+    "build": "tsc --project tsconfig.json",
     "coverage-report": "nyc report --reporter=lcov",
     "coverage-html": "nyc report --reporter=html",
     "coverage": "npm run build && BITGO_UTXO_LIB_TEST_EXPECTED_COUNT=3539 nyc --check-coverage --branches 89 --functions 90 mocha",

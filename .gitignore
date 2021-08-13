@@ -18,7 +18,6 @@ yarn.lock
 
 # Desktop electron
 # cache
-dist/*
 electron/afterPack.js
 *-embedded.provisionprofile
 *-entitlements.mas.plist
@@ -55,7 +54,6 @@ junitresults.xml
 .tmp/
 .versions/
 coverage/
-dist/
 node_modules/
 tmp/
 temp/
